@@ -9,14 +9,15 @@ header {
     position: fixed;  /*fijo*/
     top: 0%; /*espacio de alto si se quita se deja un espacio*/
     width: 100%; /*Ancho*/
+    margin-right: 20%; /*derecha*/
     z-index: 1000; /*autoridad*/
 } 
 
 header ul {
  display: flex;    
  gap: 55px;  /*separacion de links*/
- font-size: 20px;
-
+ font-size: 20px; /*tamaño*/
+ margin-right: 40px; /*para que no se valla a la derecha*/
 }
 header li { 
     list-style:none;
@@ -28,27 +29,27 @@ header a {
   font-weight: 700;
 }
 
-header a:hover {
+header a:hover {   /* cuando paso el raton por encima*/
   color: rgb(173, 107, 20);       
 }
-header img {
+header img {   /*logo*/
   height: 65px;
 }
 .imagen-principal {
-    height: 100vh; 
+    height: 100vh; /*alto toda la pantalla*/
     background: url("Principal.png") center 80%/ cover no-repeat; 
-    position: relative;
+    position: relative; /* al contenedor que esta adentro */
 }
 .imagen-principal div { 
 
-  position: absolute;
+  position: absolute;    /* acomodar como yo quiera*/
   top: 20%;
   left: 15%;
   font-family: 'Montserrat', sans-serif;
 }
 body {
-margin-top: 105px;
-margin-left: 0%;
+margin-top: 105px; /*alto de la imagen*/
+margin-left: 0%; 
 margin-right: 0%;
 
 }
