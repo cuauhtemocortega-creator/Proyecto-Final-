@@ -1,16 +1,22 @@
+
 header {
     background-color: #EDC540;
     text-align: center;
     padding: 20px;
-    display: flex; 
+    display: flex; /*en linea*/
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+    position: fixed;  /*fijo*/
+    top: 0%; /*espacio de alto si se quita se deja un espacio*/
+    width: 100%; /*Ancho*/
+    z-index: 1000; /*autoridad*/
 } 
 
 header ul {
- display: flex;   
- gap: 55px;  
+ display: flex;    
+ gap: 55px;  /*separacion de links*/
  font-size: 20px;
+
 }
 header li { 
     list-style:none;
@@ -27,4 +33,22 @@ header a:hover {
 }
 header img {
   height: 65px;
+}
+.imagen-principal {
+    height: 100vh; 
+    background: url("Principal.png") center 80%/ cover no-repeat; 
+    position: relative;
+}
+.imagen-principal div { 
+
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+margin-top: 105px;
+margin-left: 0%;
+margin-right: 0%;
+
 }
