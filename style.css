@@ -6,7 +6,7 @@ header {
     display: flex; /*en linea*/
     justify-content: space-between;
     align-items: center; 
-    position: fixed;  /*fijo*/
+    position: fixed;  /*fijo*/ 
     top: 0%; /*espacio de alto si se quita se deja un espacio*/
     width: 100%; /*Ancho*/
     margin-right: 20%; /*derecha*/
@@ -37,7 +37,7 @@ header img {   /*logo*/
 }
 .imagen-principal {
     height: 100vh; /*alto toda la pantalla*/
-    background: url("Principal.png") center 80%/ cover no-repeat; 
+    background: url("Imagen-principal-2.0.png") center 80%/ cover no-repeat; 
     position: relative; /* al contenedor que esta adentro */
 }
 .imagen-principal div { 
